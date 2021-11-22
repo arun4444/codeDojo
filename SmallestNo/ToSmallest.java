@@ -25,8 +25,8 @@ public class ToSmallest {
     }
     long[] result = new long[3];
     result[0] = min;
-    result[1] = no1;
-    result[2] = no2;
+    result[1] = takeIndex;
+    result[2] = placeIndex;
     return result;
   }
 }
