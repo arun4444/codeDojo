@@ -17,9 +17,9 @@ public class ToSmallest {
     for (int i = 0; i < inputStr.length(); i++) {
       for (int j = 0; j < inputStr.length(); j++) {
         if ((i != j) && (insertAt(inputStr, i, j) < min)) {
-          min = insertAt(inputStr, i, j);
           takeIndex = i;
           placeIndex = j;
+          min = insertAt(inputStr, i, j);
         }
       }
     }
